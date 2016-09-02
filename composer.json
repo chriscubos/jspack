@@ -9,8 +9,7 @@
         "Packagist",
         "Laravel",
         "PHP",
-        "Packalist",
-        ""
+        "Packalist"
     ],
     "homepage": "https://github.com/chriscubos/jspack",
     "license": "MIT",
