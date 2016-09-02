@@ -2,43 +2,12 @@
     "name": "chriscubos/jspack",
     "type": "library",
     "description": "Laraval collection of public assets packages for your development.",
-    "keywords": [
-        "Chriscubos",
-        "Laravel",
-        "PHP",
-        "jQuery",
-        "Blade Directives",
-        "Laravel JsPack"
-    ],
-    "homepage": "https://github.com/chriscubos/jspack",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Christopher John Cubos",
-            "email": "chriscubos@outlook.com",
-            "role": "Master"
-        },
-        {
-            "name": "Ethan Sky Cubos",
-            "email": "sky@philippineglobaloutsourcing.com",
-            "role": "Apprentice"
-        }
-    ],
     "require": {
-        "php" : "~5.4|~7.0"
+        "php": "^5.3.3 || ^7.0"
     },
     "autoload": {
         "psr-4": {
             "Chriscubos\\JsPack\\": "src"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev"
+    }
 }
