@@ -6,10 +6,8 @@
         "Chriscubos",
         "jQuery Collection",
         "JsPack",
-        "Packagist",
         "Laravel",
-        "PHP",
-        "Packalist"
+        "PHP"
     ],
     "homepage": "https://github.com/chriscubos/jspack",
     "license": "MIT",
@@ -26,11 +24,12 @@
         }
     ],
     "require": {
-        "php" : "~5.4|~7.0"
+        "php" : "~5.4|~7.0",
+        "chriscubos/packager" : "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Chriscubos\\Packager\\": "src"
+            "Chriscubos\\JsPack\\": "src"
         }
     },
     "extra": {
@@ -42,4 +41,3 @@
         "sort-packages": true
     }
 }
-
