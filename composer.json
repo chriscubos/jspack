@@ -1,0 +1,33 @@
+{
+    "name": "chriscubos/jspack",
+    "type": "library",
+    "description": "A useful collection of javascript/jquery packages and plugins for every project.",
+    "keywords": [
+        "Chriscubos",
+        "jQuery Collection",
+        "JsPack",
+        "Packagist"
+    ],
+    "homepage": "https://github.com/chriscubos/jspack",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher John Cubos",
+            "email": "chris@philippineglobaloutsourcing.com",
+            "role": "Master"
+        },
+        {
+            "name": "Ethan Sky Cubos",
+            "email": "sky@philippineglobaloutsourcing.com",
+            "role": "Apprentice"
+        }
+    ],
+    "require": {
+        "chriscubos/packager": "dev-master",
+    },
+    "autoload": {
+        "psr-4": {
+            "Chriscubos\\JsPack\\": "src"
+        }
+    }
+}
