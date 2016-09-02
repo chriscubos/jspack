@@ -19,11 +19,11 @@ class JsPack {
 		if (is_array($packages)) {
 			foreach ($packages as $package) {
 				$url = config('jspack.package.'.$package);
-				$processed .= self::processUrls($url, "/packages/$package", $x);
+				$processed .= self::processUrls($url, "/packages/$package");
 			}
 		} else {
 			$urls = config('jspack.package.'.$packages);
-			return self::processUrls($urls, "/packages/$packages", $x);
+			return self::processUrls($urls, "/packages/$packages");
 		}
 		return $processed;
 	}

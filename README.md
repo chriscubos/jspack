@@ -21,7 +21,8 @@ $ composer require chriscubos/jspack
 ## Usage
 
 ``` php
-<?php JsPack::packages(['datatables', 'bootstrap-wysihtml5']);?>
+<?php echo JsPack::packages(['datatables', 'bootstrap-wysihtml5']);?>
+<?=JsPack::packages(['datatables', 'bootstrap-wysihtml5']);?>
 
 // blade must use {!! !!}
 {!!JsPack::packages(['datatables', 'bootstrap-wysihtml5'])!!}
