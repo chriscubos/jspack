@@ -18,6 +18,18 @@ Via Composer
 $ composer require chriscubos/jspack
 ```
 
+## Setup [config/app.php]
+
+```php
+// add this
+	'providers' => [
+
+		Chriscubos\JsPack\JsPackServiceProvider::class,
+
+	],
+
+```
+
 ## Usage
 
 ``` php
