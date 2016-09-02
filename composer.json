@@ -23,11 +23,19 @@
         }
     ],
     "require": {
-        "chriscubos/packager": "dev-master"
+        "chriscubos/packager": "1.0.*"
     },
     "autoload": {
         "psr-4": {
             "Chriscubos\\JsPack\\": "src"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
